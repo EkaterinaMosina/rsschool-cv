@@ -77,9 +77,9 @@
             <div class="code-conteiner">
                 <p class="code"><code>
                     function rgb(r, g, b){<br>
-                        r =  (r>=0 && r<=255) ?  r : (r<0 )? 0: 255;<br>
-                        g =  (g>=0 && g<=255) ?  g : (g<0 )? 0: 255;<br>
-                        b =  (b>=0 && b<=255) ? b : (b<0 )? 0: 255;<br>
+                        r =  (r>=0 && r&lt;=255) ?  r : (r&lt;0 )? 0: 255;<br>
+                        g =  (g>=0 && g&lt;=255) ?  g : (g&lt;0 )? 0: 255;<br>
+                        b =  (b>=0 && b&lt;=255) ? b : (b&lt;0 )? 0: 255;<br>
                         return [r,g,b].map(x=> {<br>
                             let hex=x.toString(16).toUpperCase();<br>
                             return hex.length === 1 ? '0' + hex : hex;<br>
@@ -100,14 +100,12 @@
                         for (let item of arr) {<br>
                           interSum+=item;<br>
                           maxSum = Math.max(maxSum, interSum); <br>
-                          if (interSum < 0) interSum = 0; <br>
+                          if (interSum &lt;0) interSum = 0; <br>
                         }<br>
                         return maxSum;<br>
                         }
                 </code></p>
-                
             </div> 
-            
         </div>         
     </footer>
 </body>
