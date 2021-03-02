@@ -30,3 +30,6 @@ English: Intermediate
 - Critical thinking
  - Creativity
  - Flexibility
+
+### Hobbies
+Reading, whiting
