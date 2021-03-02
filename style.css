@@ -1,0 +1,87 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+    margin: 0 auto;
+}
+
+ /* header */
+
+.container {
+    width: 1200px;
+    padding: 20px 40px;
+    border: 1px solid grey;
+}
+
+.header-container {
+    display: flex;
+    align-items: flex-start;
+    background-color: gray; 
+}
+
+a {
+    color:black
+}
+
+.photo {
+    max-height: 250px;
+    border-radius: 50%;
+}
+
+.header__information {
+    flex:1;
+    padding-left: 150px;
+ }
+
+.personal-info {
+   padding-top: 40px;
+   font-size: 1.8rem;
+}
+
+.date {
+    font-style: italic;
+}
+
+/* center block*/
+
+.center-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.aside {
+    flex: 1;
+}
+
+.main {
+    flex: 2;
+}
+
+.main__education, .main__languages, .main__skills, .aside__contacts, .aside__skills {
+    padding-bottom: 15px;
+}
+
+h3, h2{
+    padding-bottom: 5px;
+}
+/*footer*/
+
+.footer-container {
+    background-color: rgb(235, 235, 235);
+    font-size: 1.4rem;
+}
+.code-conteiner{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.code{
+    flex:1;
+}
